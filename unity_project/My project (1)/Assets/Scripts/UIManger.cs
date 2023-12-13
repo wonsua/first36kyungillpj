@@ -19,6 +19,9 @@ public class UIManger : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI _text;
 
+    int descid = 0;
+
+
     void Start()
     {
         WallPapper01 = bg.sprite;
